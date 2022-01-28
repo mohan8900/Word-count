@@ -6,21 +6,35 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+Open the file in read mode and handle it in text mode.
 ### Step 2: 
- 
+ Read the text using read() function.
 ### Step 3: 
-
+Split the text using space separator. We assume that words in a sentence are separated by a space character.
 ### Step 4:  
-
+The length of the split list should equal the number of words in the text file.
 ### Step 5: 
-
+You can refine the count by cleaning the string prior to splitting or validating the words after splitting.
 ### Step 6: 
-
+End the program.
 ## PROGRAM:
 
-### OUTPUT:
+## DEVELOPED BY: MOHAN RAJ A K
+## REGISTER NUMBER: 21001890
 
+num_words =0
+file1 = open("text.txt", "r")
+print(file1.read())
+
+with open('text.txt','r') as file1:
+    for i in file1:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={}".format(num_words))
+
+
+### OUTPUT:
+![git log](mohan.png)
 
 
 ## RESULT:
