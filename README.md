@@ -18,20 +18,18 @@ You can refine the count by cleaning the string prior to splitting or validating
 ### Step 6: 
 End the program.
 ## PROGRAM:
+```
+#Developed by : A K MOHAN RAJ
+#Reference no :21001890
 
-## DEVELOPED BY: MOHAN RAJ A K
-## REGISTER NUMBER: 21001890
+num_of_words = 0
+file = open('wordtext.txt')
+wordtext = file.read()
+words = wordtext.split()
+num_of_words = len(words)
+print("Number of words = ",num_of_words)
 
-num_words =0
-file1 = open("text.txt", "r")
-print(file1.read())
-
-with open('text.txt','r') as file1:
-    for i in file1:
-        word =i.split()
-        num_words += len(word)
-print("Number of words={}".format(num_words))
-
+```
 
 ### OUTPUT:
 ![git log](mohan.png)
