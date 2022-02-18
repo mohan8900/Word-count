@@ -32,7 +32,7 @@ print("Number of words = ",num_of_words)
 ```
 
 ### OUTPUT:
-![git log](mohan.png)
+![git log](s2.jfif)
 ![](s.jfif)
 
 ## RESULT:
