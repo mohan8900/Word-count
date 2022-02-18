@@ -33,7 +33,7 @@ print("Number of words = ",num_of_words)
 
 ### OUTPUT:
 ![git log](mohan.png)
-
+![](s.jfif)
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
